@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Michał Kukla frontend developer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Basic description
+Here you'll find a documentation of Michał Kukla, sort of AI-based kind of robot, that actually thinks and feels!
+He has three children and lives almost in the middle of nowhere, nearby forest and river, with a beautiful view of the highest mountain of Beskidy - Babia Góra.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Resume
 
-### `yarn start`
+If you really need it, you can find [his resume here](https://kukla.tech/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Frequently Asked Questions
+### Will he finish all the tasks?
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+He will. Or die trying :O
 
-### `yarn test`
+### Does he have an internet connection in this... wherever he is?
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Suprisingly, he has fiber connection 480/20Mbit! Can you believe it?
 
-### `yarn build`
+### Does he have a computer?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Sure thing! Although only two monitors. Dreams about having 4.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Does he know how to work remotely?
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+He's been working remotely almost whole life. He has small, separate building, like a cave, where he finds peace and connects almost directly to the source of creativity.
 
-### `yarn eject`
+### What does he believe?
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Emptiness... he's kind of buddhist, so... you know... not sure what does it mean :)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+But also: that technology helps us achieve our goals with less money, time and effort. Automating things is his thing.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Is he a team player?
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+He likes to be part of a team. Either as a developer or a leader. He likes the team work, when everybody join and make the effort to get results.
 
-## Learn More
+### Does he always speak of himself in third person?
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Usually not. Maybe this is kind of bug I've never written automated tests for :O
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Try him!
 
-### Code Splitting
+### Should I hire a guy?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Sure! But let him know first.
 
-### Analyzing the Bundle Size
+### How can I let him know? How can I contact him?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+You can easily find him on [Facebook](https://facebook.com/degregar) or [LinkedIn](https://www.linkedin.com/in/kukla-michal/).
+But you can always [call him +48 691 059 529](tel:+48691059529), [email him](mailto:michal@kukla.tech) or try reach him out on Skype: degregar.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Resume from "./components/Resume/Resume";
 
 function App() {
+  setTimeout(
+    console.log.bind(
+      console,
+      "%cMichał Kukla - frontend developer\n+48 691 059 529\nmichal@kukla.tech%c ",
+      "background: #3F51B5;color:#FFF;margin:5px;padding:5px;border-radius: 5px;line-height: 26px;",
+      ""
+    )
+  );
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Resume />
     </div>
   );
 }
