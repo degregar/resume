@@ -7,7 +7,7 @@ He has three children and lives almost in the middle of nowhere, nearby forest a
 
 ## Resume
 
-If you really need it, you can find [his resume here](https://kukla.tech/)
+If you really need it, you can find [his resume here](https://resume.kukla.tech/)
 
 ## Frequently Asked Questions
 ### Will he finish all the tasks?
