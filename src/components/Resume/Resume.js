@@ -189,6 +189,10 @@ const CloseMenuButtonWrapper = styled.div`
   img {
     width: 24px;
   }
+
+  @media print, (min-width: 768px) {
+    display: none;
+  }
 `
 
 export default Resume;
