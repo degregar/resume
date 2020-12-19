@@ -1,4 +1,4 @@
-# Michał Kukla frontend developer
+# Michał Kukla - frontend developer
 
 ## Basic description
 Here you'll find a documentation of Michał Kukla, sort of AI-based kind of robot, that actually thinks and feels!
@@ -24,7 +24,7 @@ Sure thing! Although only two monitors. Dreams about having 4.
 
 ### Does he know how to work remotely?
 
-He's been working remotely almost whole life. He has small, separate building, like a cave, where he finds peace and connects almost directly to the source of creativity.
+He's been working remotely for almost his whole life. He has small, separate building, like a cave, where he finds peace and connects almost directly to the source of creativity.
 
 ### What does he believe?
 
@@ -49,5 +49,6 @@ Sure! But let him know first.
 ### How can I let him know? How can I contact him?
 
 You can easily find him on [Facebook](https://facebook.com/degregar) or [LinkedIn](https://www.linkedin.com/in/kukla-michal/).
-But you can always [call him +48 691 059 529](tel:+48691059529), [email him](mailto:michal@kukla.tech) or try reach him out on Skype: degregar.
+
+But you can always call him +48 691 059 529, [email him](mailto:michal@kukla.tech) or try reach him out on Skype: degregar.
 
