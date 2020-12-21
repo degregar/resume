@@ -86,6 +86,29 @@ export const SocialMediaBox = () => {
   );
 };
 
+export const StackBox = () => {
+  return (
+    <Box>
+      <h2 className="heading">Tech Stack</h2>
+      <p>Scale: intern - junior - mid - senior - expert</p>
+      <List>
+        <li>
+          <span className="label">Mid / Senior</span>
+          <span>React, Vanilla JS, ES6, CSS3, HTML5, Bootstrap4, PHP, MySQL, jQuery, WordPress</span>
+        </li>
+        <li>
+          <span className="label">Junior / Mid</span>
+          <span>Gatsby, Sass, TailwindCSS, Webpack, Redux, Git, Jira, Firebase, OOCSS, BEM, Docker, TDD, CI/CD, Scrum, UX, GraphQL</span>
+        </li>
+        <li>
+          <span className="label">Junior</span>
+          <span>NodeJS, JS Service Workers, Babel, TypeScript, PWA, Java, Python, ML</span>
+        </li>
+      </List>
+    </Box>
+  );
+};
+
 export const LanguagesBox = () => {
   const { mode: detailsMode } = useContext(DetailsContext);
 
@@ -112,11 +135,7 @@ export const LanguagesBox = () => {
   );
 };
 
-const Box = styled.div`
-  h2::after {
-    background-color: var(--color-light);
-  }
-`;
+const Box = styled.div``;
 
 const Icon = styled.img`
   width: 24px;
@@ -144,8 +163,7 @@ const List = styled.ul`
   }
 
   & .label {
-    width: 60px;
-    /* font-weight: bold; */
-    /* text-transform: uppercase; */
+    width: 110px;
+    flex-shrink: 0;
   }
 `;

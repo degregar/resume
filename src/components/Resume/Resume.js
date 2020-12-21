@@ -5,6 +5,7 @@ import WatermarkHeading from "../Heading/WatermarkHeading/WatermarkHeading";
 import {
   ContactBox,
   SocialMediaBox,
+  StackBox,
   LanguagesBox,
 } from "./SidebarBoxes/SidebarBoxes";
 
@@ -46,6 +47,7 @@ const Content = () => {
     <ContentWrapper>
       <WatermarkHeading>Michał Kukla</WatermarkHeading>
       <TextWrapper>
+        <StackBox />
         <Summary />
         <Experience />
         <GDPRClause />
@@ -90,6 +92,10 @@ const SidebarWrapper = styled.aside.attrs({
   transition: transform 0.3s ease-in-out;
   width: 100%;
 
+  h2::after {
+    background-color: var(--color-light);
+  }
+
   @media (min-width: 768px) {
     grid-area: sidebar;
     transform: translateX(0);
@@ -123,7 +129,7 @@ const ContentWrapper = styled.main`
 const InteractiveResumeLink = () => (
   <InteractiveResumeLinkWrapper>
     <a href="https://resume.kukla.tech/" target="_blank" rel="noreferrer">
-      Interactive resume: https://resume.kukla.tech/
+      Interactive résumé: https://resume.kukla.tech/
     </a>
   </InteractiveResumeLinkWrapper>
 );

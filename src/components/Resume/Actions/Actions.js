@@ -46,9 +46,15 @@ const ActionsWrapper = styled.div`
   padding: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
   border-bottom-left-radius: 2px;
+  width: 100%;
+  justify-content: flex-end;
 
   @media print {
     display: none;
+  }
+
+  @media (min-width: 768px) {
+    width: fit-content;
   }
 `;
 
@@ -74,7 +80,7 @@ const PrintButton = () => {
   return (
     <ButtonWrapper onClick={print}>
       <img
-        alt="Print resume of Michał Kukla - frontend developer"
+        alt="Print résumé of Michał Kukla - frontend developer"
         src={printIcon}
       />
     </ButtonWrapper>
@@ -98,7 +104,7 @@ const SourceButton = () => {
       target="_blank"
       rel="noreferrer"
     >
-      <img alt="Source code of this very resume" src={githubIcon} />
+      <img alt="Source code of this very résumé" src={githubIcon} />
     </StyledLink>
   );
 };
@@ -131,6 +137,10 @@ const MenuTogglerWrapper = styled.div`
   
   img {
     width: 24px;
+  }
+
+  @media (min-width: 768px) {
+    display: none;
   }
 `;
 

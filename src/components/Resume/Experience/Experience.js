@@ -4,7 +4,7 @@ import DetailsContext, { DETAILS_MODES } from "../../../context/DetailsContext";
 
 const ExperienceWrapper = ({ children }) => (
   <div>
-    <h2 className="heading">Experience as a programmer (mostly)</h2>
+    <h2 className="heading">Experience</h2>
     {children}
   </div>
 );
@@ -68,7 +68,7 @@ const Experience = () => {
             <p>Lessons learned:</p>
             <ul>
               <li>Gatsby</li>
-              <li>Firestore</li>
+              <li>Firebase</li>
             </ul>
           </>
         )}
@@ -76,8 +76,8 @@ const Experience = () => {
 
       <Job project="Kuźnia Spotkań" period="09/2018 - 10/2019">
         <p>
-          My own startup. Web application for event managers for finding venue
-          for their events. I’ve created the whole thing from scratch in Symfony
+          Hist own startup. Web application for event managers for finding venue
+          for their events. He's created the whole thing from scratch in Symfony
           and React.
         </p>
         {detailsMode === DETAILS_MODES.full && (
@@ -110,18 +110,19 @@ const Experience = () => {
           <>
             <p>Lessons learned:</p>
             <ul>
+              <li>How to communicate, solve tough situations with employees and negotiate with people from all levels of hierarchy in company</li>
               <li>How to recruit</li>
               <li>How to work with women as employees</li>
               <li>
-                How to manage the team, based on the books of Patrick Lencioni,
+                How to manage the team, based on the books of Peter Drucker, Steven Covey, Patrick Lencioni,
                 like <i>The Five Dysfunctions of a Team</i> and many others
               </li>
               <li>
-                How to work in a company run by a family and work with my family
+                How to work in a company run by a family and work with a family
               </li>
               <li>
                 Marketing skills, like: copywriting, photography, movie making,
-                SEM tools, branding
+                SEM tools, social media, branding
               </li>
             </ul>
           </>

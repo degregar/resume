@@ -85,7 +85,7 @@ const Summary = () => {
 
           <p>His first experience with computers was when he were 8 years old. He got a computer as First Communion gift. He's started writing first websites in the age of 17.</p>
 
-          <p>He always tell a story how he was sitting in fear for two and a half hours, downloading his first, 12MB local PHP server, using dial-up modem. He was afraid of two things: interrupting the connection and look on his father's face, while he's reading the bill.</p>
+          <p>He always tells a story about how he was sitting in fear for two and a half hours, downloading his first, 12MB local PHP server, using dial-up modem. He was afraid of two things: interrupting the connection and a look on his father's face, while he's reading the bill.</p>
 
           <p>In his work he’s created tools like:</p>
           <ul>
@@ -116,7 +116,7 @@ const Summary = () => {
                 {detailsMode === DETAILS_MODES.full && (
                   <span>
                     , because he's worked in marketing and learned UX/UI. He's
-                    used it in my own applications, while creating web projects
+                    used it in his own applications, while creating web projects
                     in WordPress for digital and creative agencies and for
                     individuals.
                   </span>
