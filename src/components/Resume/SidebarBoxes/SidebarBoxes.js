@@ -98,11 +98,11 @@ export const StackBox = () => {
         </li>
         <li>
           <span className="label">Junior / Mid</span>
-          <span>Gatsby, Sass, TailwindCSS, Webpack, Redux, Git, Jira, Firebase, OOCSS, BEM, Docker, TDD, CI/CD, Scrum, UX, GraphQL</span>
+          <span>Gatsby, Sass, TailwindCSS, Webpack, Redux, Git, Jira, Firebase, OOCSS, BEM, Docker, TDD, CI/CD, Scrum, UX, GraphQL, Figma, GSAP</span>
         </li>
         <li>
           <span className="label">Junior</span>
-          <span>NodeJS, JS Service Workers, Babel, TypeScript, PWA, Java, Python, ML</span>
+          <span>Storybook, NodeJS, JS Service Workers, Babel, TypeScript, PWA, Java, Python, ML</span>
         </li>
       </List>
     </Box>
