@@ -13,7 +13,7 @@ export const Summary = () => {
   const programmerExperience = (
     <p key="programmerExperience">
       Michał has {programmerYears} years of programming experience, mostly as a PHP programmer, 6 years in marketing and travel industry, {reactYears}{" "}
-      years as a JS (React, Node.js) developer.
+      years as a JS/TS (React, Node.js) developer.
     </p>
   )
 

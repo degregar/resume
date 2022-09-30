@@ -27,9 +27,9 @@ const Experience = () => {
     <ExperienceWrapper>
       <Job project="Packhelp" period="02/2021 - now">
         <p>
-          Senior fullstack programmer, working on Editor (contributor in a team) and DTP automation (one-man-army) for a packaging industry leader. He
-          has learnt a lot about working in a tech company, practicing software development methodologies and approaches like DDD, Continues Delivery,
-          CD/CI, TDD/BDD.
+          Senior fullstack programmer, working on improving customer experience in Editor (contributor in a team) and scaling up DTP and production
+          teams (one-man-army) for a packaging industry leader. He has learnt a lot about working in a tech company, practicing software development
+          methodologies and approaches like DDD, Continues Delivery, CD/CI, TDD/BDD.
         </p>
 
         <p>
