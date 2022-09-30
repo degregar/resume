@@ -1,6 +1,7 @@
-# Michał Kukla - frontend developer
+# Michał Kukla - fullstack developer
 
 ## Basic description
+
 Here you'll find a documentation of Michał Kukla, sort of AI-based kind of robot, that actually thinks and feels!
 He has three children and lives almost in the middle of nowhere, nearby forest and river, with a beautiful view of the highest mountain of Beskidy - Babia Góra.
 
