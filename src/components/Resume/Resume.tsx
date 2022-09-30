@@ -4,7 +4,7 @@ import Avatar from "./Avatar/Avatar"
 import WatermarkHeading from "../Heading/WatermarkHeading/WatermarkHeading"
 import { ContactBox, SocialMediaBox, StackBox, LanguagesBox } from "./SidebarBoxes/SidebarBoxes"
 
-import Summary from "./Summary/Summary"
+import { Summary } from "./Summary/Summary"
 import Experience from "./Experience/Experience"
 import Actions from "./Actions/Actions"
 
