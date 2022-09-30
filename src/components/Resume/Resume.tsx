@@ -1,23 +1,18 @@
-import React from "react";
-import styled from "styled-components";
-import Avatar from "./Avatar/Avatar";
-import WatermarkHeading from "../Heading/WatermarkHeading/WatermarkHeading";
-import {
-  ContactBox,
-  SocialMediaBox,
-  StackBox,
-  LanguagesBox,
-} from "./SidebarBoxes/SidebarBoxes";
+import React from "react"
+import styled from "styled-components"
+import Avatar from "./Avatar/Avatar"
+import WatermarkHeading from "../Heading/WatermarkHeading/WatermarkHeading"
+import { ContactBox, SocialMediaBox, StackBox, LanguagesBox } from "./SidebarBoxes/SidebarBoxes"
 
-import Summary from "./Summary/Summary";
-import Experience from "./Experience/Experience";
-import Actions from "./Actions/Actions";
+import Summary from "./Summary/Summary"
+import Experience from "./Experience/Experience"
+import Actions from "./Actions/Actions"
 
-import closeIcon from "../../assets/icons/close.svg";
+import closeIcon from "../../assets/icons/close.svg"
 
-import { DetailsContextProvider } from "../../context/DetailsContext";
+import { DetailsContextProvider } from "../../context/DetailsContext"
 
-const Resume = () => {
+export const Resume = () => {
   return (
     <DetailsContextProvider>
       <Grid>
@@ -26,8 +21,8 @@ const Resume = () => {
         <Actions />
       </Grid>
     </DetailsContextProvider>
-  );
-};
+  )
+}
 
 const Sidebar = () => {
   return (
@@ -39,8 +34,8 @@ const Sidebar = () => {
       <InteractiveResumeLink />
       <CloseMenuButton />
     </SidebarWrapper>
-  );
-};
+  )
+}
 
 const Content = () => {
   return (
@@ -53,12 +48,12 @@ const Content = () => {
         <GDPRClause />
       </TextWrapper>
     </ContentWrapper>
-  );
-};
+  )
+}
 
 const TextWrapper = styled.div`
   max-width: 800px;
-`;
+`
 
 const Grid = styled.div`
   display: grid;
@@ -78,7 +73,7 @@ const Grid = styled.div`
     grid-template-columns: 311px auto;
     grid-template-rows: 1fr;
   }
-`;
+`
 
 const SidebarWrapper = styled.aside.attrs({
   className: "menu-wrapper",
@@ -104,7 +99,6 @@ const SidebarWrapper = styled.aside.attrs({
 
   @media print {
     transform: translateX(0);
-    position: block;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
@@ -119,12 +113,12 @@ const SidebarWrapper = styled.aside.attrs({
   &[data-opened="true"] {
     transform: translateX(0);
   }
-`;
+`
 
 const ContentWrapper = styled.main`
   padding: 2rem;
   grid-area: main;
-`;
+`
 
 const InteractiveResumeLink = () => (
   <InteractiveResumeLinkWrapper>
@@ -132,7 +126,7 @@ const InteractiveResumeLink = () => (
       Interactive résumé: https://resume.kukla.tech/
     </a>
   </InteractiveResumeLinkWrapper>
-);
+)
 
 const InteractiveResumeLinkWrapper = styled.div`
   margin: 1rem 0;
@@ -140,29 +134,23 @@ const InteractiveResumeLinkWrapper = styled.div`
   @media screen {
     display: none;
   }
-`;
+`
 
 const GDPRClause = () => (
   <GDPRClauseWrapper>
     <p>
-      I agree to the processing of personal data provided in this document for
-      realising the recruitment process pursuant to the Personal Data Protection
-      Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with
-      Regulation (EU) 2016/679 of the European Parliament and of the Council of
-      27 April 2016 on the protection of natural persons with regard to the
-      processing of personal data and on the free movement of such data, and
-      repealing Directive 95/46/EC (General Data Protection Regulation).
+      I agree to the processing of personal data provided in this document for realising the recruitment process pursuant to the Personal Data
+      Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of
+      the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of
+      such data, and repealing Directive 95/46/EC (General Data Protection Regulation).
     </p>
     <p>
-      Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb
-      niezbędnych do realizacji procesu rekrutacji zgodnie z Rozporządzeniem
-      Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w
-      sprawie ochrony osób fizycznych w związku z przetwarzaniem danych
-      osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia
-      dyrektywy 95/46/WE (RODO).
+      Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji zgodnie z Rozporządzeniem
+      Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych
+      osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO).
     </p>
   </GDPRClauseWrapper>
-);
+)
 
 const GDPRClauseWrapper = styled.div`
   margin-top: 2rem;
@@ -171,19 +159,22 @@ const GDPRClauseWrapper = styled.div`
   @media screen {
     display: none;
   }
-`;
+`
 
 const CloseMenuButton = () => {
   const handleCloseMenu = () => {
-    document.querySelector('.menu-wrapper').dataset.opened = false;
+    const domMenuWrapper = document?.querySelector(".menu-wrapper")
+    if (domMenuWrapper) {
+      domMenuWrapper.setAttribute("data-opened", "false")
+    }
   }
 
   return (
     <CloseMenuButtonWrapper onClick={handleCloseMenu}>
       <img alt="Close menu" src={closeIcon} />
     </CloseMenuButtonWrapper>
-  );
-};
+  )
+}
 
 const CloseMenuButtonWrapper = styled.div`
   position: absolute;
@@ -200,5 +191,3 @@ const CloseMenuButtonWrapper = styled.div`
     display: none;
   }
 `
-
-export default Resume;

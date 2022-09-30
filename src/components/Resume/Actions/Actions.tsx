@@ -1,17 +1,17 @@
-import React, { useContext } from "react";
-import styled from "styled-components";
-import DetailsContext, { DETAILS_MODES } from "../../../context/DetailsContext";
+import React, { useContext } from "react"
+import styled from "styled-components"
+import DetailsContext, { DETAILS_MODES } from "../../../context/DetailsContext"
 
-import printIcon from "../../../assets/icons/printer.svg";
-import githubIcon from "../../../assets/icons/github.svg";
-import menuIcon from "../../../assets/icons/menu.svg";
+import printIcon from "../../../assets/icons/printer.svg"
+import githubIcon from "../../../assets/icons/github.svg"
+import menuIcon from "../../../assets/icons/menu.svg"
 
 const Actions = () => {
-  const { mode: detailsMode, setMode } = useContext(DetailsContext);
+  const { mode: detailsMode, setMode } = useContext(DetailsContext)
 
-  const handleChangeDetailsMode = (e) => {
-    setMode(e.target.value);
-  };
+  const handleChangeDetailsMode = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    setMode(event.target.value)
+  }
 
   return (
     <ActionsWrapper>
@@ -19,20 +19,22 @@ const Actions = () => {
         <span>Details Mode</span>
         <select onChange={handleChangeDetailsMode} value={detailsMode}>
           {Object.keys(DETAILS_MODES).map((mode) => {
+            const detailMode = mode as keyof typeof DETAILS_MODES
             return (
-              <option key={mode} value={DETAILS_MODES[mode]}>
-                {DETAILS_MODES[mode]}
+              <option key={mode} value={detailMode}>
+                {detailMode}
               </option>
-            );
+            )
           })}
         </select>
       </DetailsModeToggler>
+
       <PrintButton />
       <SourceButton />
       <MenuToggler />
     </ActionsWrapper>
-  );
-};
+  )
+}
 
 const ActionsWrapper = styled.div`
   display: flex;
@@ -56,7 +58,7 @@ const ActionsWrapper = styled.div`
   @media (min-width: 768px) {
     width: fit-content;
   }
-`;
+`
 
 const DetailsModeToggler = styled.div`
   select {
@@ -68,24 +70,21 @@ const DetailsModeToggler = styled.div`
   span {
     padding: 8px;
   }
-`;
+`
 
 const PrintButton = () => {
   const print = () => {
     if (typeof window !== "undefined") {
-      window.print();
+      window.print()
     }
-  };
+  }
 
   return (
     <ButtonWrapper onClick={print}>
-      <img
-        alt="Print résumé of Michał Kukla - frontend developer"
-        src={printIcon}
-      />
+      <img alt="Print résumé of Michał Kukla - frontend developer" src={printIcon} />
     </ButtonWrapper>
-  );
-};
+  )
+}
 
 const ButtonWrapper = styled.button`
   cursor: pointer;
@@ -95,19 +94,15 @@ const ButtonWrapper = styled.button`
   img {
     width: 24px;
   }
-`;
+`
 
 const SourceButton = () => {
   return (
-    <StyledLink
-      href="https://github.com/degregar/resume"
-      target="_blank"
-      rel="noreferrer"
-    >
+    <StyledLink href="https://github.com/degregar/resume" target="_blank" rel="noreferrer">
       <img alt="Source code of this very résumé" src={githubIcon} />
     </StyledLink>
-  );
-};
+  )
+}
 
 const StyledLink = styled.a`
   display: inline-block;
@@ -117,24 +112,27 @@ const StyledLink = styled.a`
   img {
     width: 24px;
   }
-`;
+`
 
 const MenuToggler = () => {
   const handleOpenMenu = () => {
-    document.querySelector('.menu-wrapper').dataset.opened = true;
-  };
+    const openWrapper = document?.querySelector(".menu-wrapper")
+    if (openWrapper) {
+      openWrapper.setAttribute("data-opened", "true")
+    }
+  }
 
   return (
     <MenuTogglerWrapper onClick={handleOpenMenu}>
       <img alt="Open menu" src={menuIcon} />
     </MenuTogglerWrapper>
-  );
-};
+  )
+}
 
 const MenuTogglerWrapper = styled.div`
   cursor: pointer;
   padding: 4px 0;
-  
+
   img {
     width: 24px;
   }
@@ -142,6 +140,6 @@ const MenuTogglerWrapper = styled.div`
   @media (min-width: 768px) {
     display: none;
   }
-`;
+`
 
-export default Actions;
+export default Actions
