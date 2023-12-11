@@ -75,27 +75,23 @@ export const StackBox = () => {
     <Box>
       <h2 className="heading">Tech Stack</h2>
 
-      <p style={{ color: "#aaa" }}>Used scale: intern - junior - mid - senior - expert</p>
+      <p style={{ color: "#aaa" }}>Used scale: junior - mid - senior - expert</p>
 
       <List>
         <li>
           <span className="label">Senior</span>
-          <span>TypeScript, NodeJS, React, Vanilla JS, ES6</span>
+          <span>TypeScript, NodeJS, React, Vanilla JS, ES6+</span>
         </li>
         <li>
           <span className="label">Mid / Senior</span>
-          <span>CSS3, HTML5, Bootstrap4, PHP, MySQL, jQuery, WordPress, REST, Git, Docker, TDD, Adobe Illustrator Scripting, MobX</span>
+          <span>CSS3, HTML5, Bootstrap4, NextJS, REST, Git, Docker, TDD, Adobe Illustrator Scripting, MobX, TailwindCSS</span>
         </li>
         <li>
           <span className="label">Junior / Mid</span>
           <span>
-            AWS (S3, SQS, Cloudfront, EC2, Terraform), NestJS, NextJS, Python, Gatsby, Sass, TailwindCSS, Webpack, Redux, Jira, Firebase (storage,
+            AWS (S3, SQS, Cloudfront, EC2, DynamoDB, SES), Cloudformation, OpenAI API, Neo4j, NestJS, PHP, MySQL, jQuery, WordPress, Python, Gatsby, Sass, Webpack, Redux, Jira, Firebase (storage,
             queues, functions), OOCSS, BEM, CI/CD, Scrum, UX, GraphQL, Figma, GSAP, Babel, Storybook, Datadog, Airflow, Spark
           </span>
-        </li>
-        <li>
-          <span className="label">Junior</span>
-          <span>JS Service Workers, PWA, Java, ML, Rust, Ruby</span>
         </li>
       </List>
     </Box>
