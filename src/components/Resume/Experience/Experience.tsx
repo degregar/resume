@@ -17,7 +17,7 @@ const Experience = () => {
       <ExperienceWrapper>
         <p>
           He was working on his own projects since 2002, since 2005 for others. Mostly as a programmer, but also as a hotel and marketing manager.
-          Tried to run his own company two times already.
+          Tried to run his own company three times already.
         </p>
       </ExperienceWrapper>
     )
@@ -25,32 +25,32 @@ const Experience = () => {
 
   return (
     <ExperienceWrapper>
-      <Job project="Packhelp" period="02/2021 - now">
-        <p>
-          Senior fullstack programmer, working on improving customer experience in Editor (contributor in a team) and scaling up DTP and production
-          teams (one-man-army) for a packaging industry leader. He has learnt a lot about working in a tech company, practicing software development
-          methodologies and approaches like DDD, Continues Delivery, CD/CI, TDD/BDD.
-        </p>
+        <Job project="Packhelp" period="02/2021 - 11/2022">
+            <p>
+                Senior fullstack programmer, working on improving customer experience in Editor (contributor in a team) and scaling up DTP and production
+                teams (one-man-army) for a packaging industry leader. He has learnt a lot about working in a tech company, practicing software development
+                methodologies and approaches like DDD, Continues Delivery, CD/CI, TDD/BDD.
+            </p>
 
-        <p>
-          Stack: Javascript, Typescript, React, NodeJS, Adobe Illustrator Scripting, MobX, Datadog, AWS (S3, SQS, Terraform, EC2), Firebase (storage,
-          queues, functions), Docker, Python, Ruby, Airflow, Spark, Github{" "}
-        </p>
+            <p>
+                Stack: Javascript, Typescript, React, NodeJS, Adobe Illustrator Scripting, MobX, Datadog, AWS (S3, SQS, Terraform, EC2), Firebase (storage,
+                queues, functions), Docker, Python, Ruby, Airflow, Spark, Github{" "}
+            </p>
 
-        {detailsMode === DETAILS_MODES.full && (
-          <>
-            <p>Lessons learned:</p>
-            <ul>
-              <li>Managing small developer teams</li>
-              <li>Detective work: talking to people to find out how the processes work</li>
-              <li>Architecture on different levels (infrastructure vs implementation)</li>
-              <li>How does the packaging industry work, especially DTP and supply chain departments</li>
-              <li>Event Storming and DDD in practice</li>
-              <li>TDD/BDD in practice</li>
-            </ul>
-          </>
-        )}
-      </Job>
+            {detailsMode === DETAILS_MODES.full && (
+                <>
+                    <p>Lessons learned:</p>
+                    <ul>
+                        <li>Managing small developer teams</li>
+                        <li>Detective work: talking to people to find out how the processes work</li>
+                        <li>Architecture on different levels (infrastructure vs implementation)</li>
+                        <li>How does the packaging industry work, especially DTP and supply chain departments</li>
+                        <li>Event Storming and DDD in practice</li>
+                        <li>TDD/BDD in practice</li>
+                    </ul>
+                </>
+            )}
+        </Job>
 
       <Job project="Kukla Tech" period="07/2019 - now">
         <p>
