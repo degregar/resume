@@ -11,13 +11,14 @@ He has three children and lives almost in the middle of nowhere, nearby forest a
 If you really need it, you can find [his resume here](https://resume.kukla.tech/)
 
 ## Frequently Asked Questions
+
 ### Will he finish all the tasks?
 
 He will. Or die trying :O
 
 ### Does he have an internet connection in this... wherever he is?
 
-Suprisingly, he has fiber connection 480/20Mbit! Can you believe it?
+Suprisingly, he has fiber connection 320/100Mbit! Can you believe it?
 
 ### Does he have a computer?
 
@@ -25,7 +26,7 @@ Sure thing! Although only two monitors. Dreams about having 4.
 
 ### Does he know how to work remotely?
 
-He's been working remotely for almost his whole life. He has small, separate building, like a cave, where he finds peace and connects almost directly to the source of creativity.
+He's been working remotely for almost his entire life. He has small, separate building, like a cave, where he finds peace and connects almost directly to the source of creativity.
 
 ### What does he believe?
 
@@ -35,7 +36,7 @@ But also: that technology helps us achieve our goals with less money, time and e
 
 ### Is he a team player?
 
-He likes to be part of a team. Either as a developer or a leader. He likes the team work, when everybody join and make the effort to get results.
+He likes to be part of a team. Either as a developer or a leader. He likes the team work, when everybody join, make the effort to get results and learn from their mistakes.
 
 ### Does he always speak of himself in third person?
 
@@ -51,5 +52,5 @@ Sure! But let him know first.
 
 You can easily find him on [Facebook](https://facebook.com/degregar) or [LinkedIn](https://www.linkedin.com/in/kukla-michal/).
 
-But you can always call him +48 691 059 529, [email him](mailto:michal@kukla.tech) or try reach him out on Skype: degregar.
+But you can always text him +48 691 059 529 or [email him](mailto:michal@kukla.tech).
 
