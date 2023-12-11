@@ -141,7 +141,7 @@ export const Summary = () => {
         </>
       )}
 
-        <p>Continuously learns how to be a better person, programmer, entrepreneur, leader and trainer. How? By reading <a href={"https://michalkukla.pl/polecane-ksiazki/"} target={"_blank"}>tons of books</a> and taking courses like DNA, Legacy Fighter, AnF (devstyle), MBLC (Mindfulness Association), online trainers (Grupa SET).</p>
+        <p>Continuously learns how to be a better person, programmer, entrepreneur, leader and trainer. How? By reading <a href={"https://michalkukla.pl/polecane-ksiazki/"} rel="noreferrer" target={"_blank"}>tons of books</a> and taking courses like DNA, Legacy Fighter, AnF (devstyle), MBLC (Mindfulness Association), online trainers (Grupa SET).</p>
     </div>
   )
 }
